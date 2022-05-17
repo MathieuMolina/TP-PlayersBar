@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Metal+Mania&display=swap');
 
-body{
+*{
     margin: 0;
     padding: 0;
+}
+
+body{
     background-color: #121212;
 }
 
@@ -73,9 +76,49 @@ h1{
 	top:1px;
 }
 
+/*                  TRAITS DE SEPARATION                */
+
 .trait1{
     height: 2px;
     width: 50%;
     background-color: #9c0000;
-    
 }
+
+.trait2{
+    height: 2px;
+    width: 50%;
+    background-color: #9c0000;
+    display: flex;
+    margin-left: 50%;
+}
+
+.trait3{
+    height: 2px;
+    width: 80%;
+    background-color: #9c0000;
+    display: block;
+    margin: auto;
+}
+
+/*                  MAIN                          */
+
+.bar{
+    height: 80%;
+    width: 100%;
+}
+
+.salle{
+    height: 80%;
+    width: 100%;
+}
+
+.escape{
+    height: 80%;
+    width: 100%;
+}
+
+
+
+/*                  FOOTER                  */
+
+
