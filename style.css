@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Metal+Mania&display=swap');
+
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #121212;
 }
+
+/*              HEADER                   */
+
 
 .btnConnection{ /*En faire un bouton*/
     height: 50px;
@@ -13,6 +18,64 @@ body{
     margin-top: 1%; 
 }
 
-.logo{
+.sectionHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.logo{
+    height: 450px;
+    width: 450px;
+}
+
+.headerContenu{
+    color: white;
+}
+
+h1{
+    font-size: 150px;
+    font-family: 'Metal Mania', cursive;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #9c0000;
+}
+.intro{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+}
+
+.ancres{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #9c0000 5%, #9c0000 100%);
+	background-color:#9c0000;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:13px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9c0000 5%, #9c0000 100%);
+	background-color:#9c0000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.trait1{
+    height: 2px;
+    width: 50%;
+    background-color: #9c0000;
+    
 }
