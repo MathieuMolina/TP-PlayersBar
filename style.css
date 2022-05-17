@@ -3,3 +3,16 @@ body{
     padding: 0;
     background-color: black;
 }
+
+.btnConnection{ /*En faire un bouton*/
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    background-color: #9c0000;
+    margin-left: 96%;
+    margin-top: 1%; 
+}
+
+.logo{
+
+}
