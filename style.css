@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'DotGothic16', sans-serif;
+
 }
 
 body{
@@ -53,28 +55,23 @@ h1{
     justify-content: space-around;
 }
 
-.myButton {
-	box-shadow:inset 0px 0px 0px 0px #cf866c;
-	background:linear-gradient(to bottom, #9c0000 5%, #9c0000 100%);
-	background-color:#9c0000;
-	border-radius:10px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	padding:13px 50px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #854629;
+
+.boutonText{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #9c0000 5%, #9c0000 100%);
-	background-color:#9c0000;
+
+.bouton{
+    height: 35px;
+    width: 250px;
+    background-color: #9c0000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+
 
 /*                  TRAITS DE SEPARATION                */
 
@@ -82,6 +79,8 @@ h1{
     height: 2px;
     width: 50%;
     background-color: #9c0000;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .trait2{
@@ -90,6 +89,8 @@ h1{
     background-color: #9c0000;
     display: flex;
     margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .trait3{
@@ -98,6 +99,8 @@ h1{
     background-color: #9c0000;
     display: block;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*                  MAIN                          */
@@ -121,4 +124,33 @@ h1{
 
 /*                  FOOTER                  */
 
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
 
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.googleMap{
+    height: 400px;
+    width: 80%;
+    margin-bottom: 100px;
+    border: 5px solid #9c0000;
+}
+
+.bouton2{
+    height: 70px;
+    width: 250px;
+    background-color: #9c0000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
